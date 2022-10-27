@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Marks</title>
+    <style>
+        h1 {font-size: x-large;}
+        label {font-size:medium; color:white}
+        p {font-size: larger;}
+        h3 {font-size: xx-large;}
+        body {text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+    </style>
+</head>
+<body style="background-color:gold;">
+    <h1 style="color:darkred">Student Marks</h1>
+    <label> <b>Student Name</b> <input id="Student Name" type="text"></label> <br><br>
+    <label> <b>First Exam</b> <input id="First Exam" type="number"></label> <br><br>
+    <label> <b>Second Exam</b> <input id="Second Exam" type="number"></label> <br><br>
+    <label> <b>Third Exam</b> <input id="Third Exam" type="number"></label> <br><br>
+    <button onclick="average()"><h2>Calculate average mark</h2></button> <br><br>
+    <p>The student's average mark is:</p>
+    <p id="average mark"></p> <br>
+    <h3 id="comment"></h3>
+<script src="SchoolReport.js"></script>
+</body>
+</html>
